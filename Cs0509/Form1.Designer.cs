@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            buttonProperty = new Button();
             SuspendLayout();
             // 
-            // button1
+            // buttonProperty
             // 
-            button1.BackColor = SystemColors.Desktop;
-            button1.Font = new Font("メイリオ", 9F, FontStyle.Bold, GraphicsUnit.Point, 128);
-            button1.ForeColor = SystemColors.HighlightText;
-            button1.Location = new Point(46, 60);
-            button1.Name = "button1";
-            button1.Size = new Size(239, 100);
-            button1.TabIndex = 0;
-            button1.Text = "ボタン";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            buttonProperty.BackColor = SystemColors.Desktop;
+            buttonProperty.Font = new Font("メイリオ", 9F, FontStyle.Bold, GraphicsUnit.Point, 128);
+            buttonProperty.ForeColor = SystemColors.HighlightText;
+            buttonProperty.Location = new Point(46, 60);
+            buttonProperty.Name = "buttonProperty";
+            buttonProperty.Size = new Size(239, 100);
+            buttonProperty.TabIndex = 0;
+            buttonProperty.Text = "ボタン";
+            buttonProperty.UseVisualStyleBackColor = false;
+            buttonProperty.Click += button1_Click;
             // 
             // Form1
             // 
@@ -50,7 +50,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(buttonProperty);
             ForeColor = SystemColors.ActiveCaptionText;
             Name = "Form1";
             Text = "Form1";
@@ -59,6 +59,6 @@
 
         #endregion
 
-        private Button button1;
+        private Button buttonProperty;
     }
 }
